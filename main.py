@@ -4,7 +4,7 @@ from flask_swagger import swagger
 
 app = Flask(__name__)
 
-# เชื่อมต่อกับ CUPS
+# connect with CUPS
 conn = cups.Connection()
 
 
